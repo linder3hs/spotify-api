@@ -10,6 +10,7 @@ export async function GET(_request: NextRequest) {
       "Content-Type": "application/x-www-form-urlencoded",
     },
     body: `grant_type=client_credentials&client_id=${client_id}&client_secret=${client_secret}`,
+    next: { revalidate: 10 },
   });
 
   const json_response = await response.json();
