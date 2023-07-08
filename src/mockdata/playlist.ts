@@ -1,4 +1,4 @@
-export const playlist = {
+export let playlist = {
   href: "https://api.spotify.com/v1/users/yvhkiatrpkh6rus5246pdlh22/playlists?offset=0&limit=20",
   items: [
     {
