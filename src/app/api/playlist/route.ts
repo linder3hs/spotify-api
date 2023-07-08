@@ -5,7 +5,6 @@ export async function GET(_request: NextRequest) {
   return NextResponse.json(playlist);
 }
 
-// POST add to json
 export async function POST(request: NextRequest) {
   const res = await request.json();
   const newPlaylist = {
@@ -28,6 +27,7 @@ export async function POST(request: NextRequest) {
     ],
     ...res,
   };
+
   playlist.items.push(newPlaylist);
 
   return NextResponse.json(playlist);
