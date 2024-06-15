@@ -4,7 +4,7 @@ export const songs = [
     title: "Shape of You",
     description: "A popular song by Ed Sheeran from his album '÷' (2017).",
     image:
-      "https://www.kissfm.es/wp-content/uploads/2017/03/16406926_10154964248914486_6446006036347429467_n-1.jpg",
+      "https://imgmedia.larepublica.pe/640x371/larepublica/original/2021/12/23/61c3ea3c31e39940490d8e94.webp",
     mp3: "https://xucekozvkttuxbzxptrz.supabase.co/storage/v1/object/public/menu/shape-of-you-official-music-video.mp3",
     author: "Ed Sheeran",
   },
@@ -40,7 +40,8 @@ export const songs = [
     id: 5,
     title: "Someone Like You",
     description: "A song by Adele from her album '21' (2011).",
-    image: "https://link.to/someone_like_you_image.jpg",
+    image:
+      "https://universalsonica.org/wp-content/uploads/2024/02/efemerides-88-1100x733.jpg",
     mp3: "https://xucekozvkttuxbzxptrz.supabase.co/storage/v1/object/public/menu/shape-of-you-official-music-video.mp3",
     author: "Adele",
   },
@@ -65,7 +66,7 @@ export const songs = [
     id: 8,
     title: "Rolling in the Deep",
     description: "A song by Adele from her album '21' (2010).",
-    image: "https://link.to/rolling_in_the_deep_image.jpg",
+    image: "https://i.ytimg.com/vi/rYEDA3JcQqw/maxresdefault.jpg",
     mp3: "https://xucekozvkttuxbzxptrz.supabase.co/storage/v1/object/public/menu/shape-of-you-official-music-video.mp3",
     author: "Adele",
   },
